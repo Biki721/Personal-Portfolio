@@ -14,7 +14,6 @@ import {
   SiPostgresql,
   SiGit,
   SiExpress,
-  // SiNodeDotJs,
   SiRedux,
   SiSelenium,
 } from "react-icons/si";
@@ -50,13 +49,14 @@ const Technologies = () => {
         whileInView={{ opacity: 1, x: 0 }}
         initial={{ opacity: 0, x: -100 }}
         transition={{ duration: 1.5 }}
-        className="flex flex-wrap items-center justify-center sm:gap-4 gap-7 "
+        className="flex flex-wrap items-center justify-center gap-4"
       >
         <motion.div
           variants={iconVariants(2.5)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
+          title="Python"
         >
           <SiPython className="text-7xl text-blue-500" />
         </motion.div>
@@ -65,6 +65,7 @@ const Technologies = () => {
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
+          title="Django"
         >
           <SiDjango className="text-7xl text-green-700" />
         </motion.div>
@@ -73,6 +74,7 @@ const Technologies = () => {
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
+          title="Flask"
         >
           <SiFlask className="text-7xl text-white" />
         </motion.div>
@@ -81,8 +83,8 @@ const Technologies = () => {
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
+          title="JavaScript"
         >
-          {/* Assuming Dash from Plotly doesn't have a specific icon in react-icons */}
           <SiJavascript className="text-7xl text-yellow-500" />
         </motion.div>
         <motion.div
@@ -90,22 +92,25 @@ const Technologies = () => {
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
+          title="React"
         >
           <RiReactjsLine className="text-7xl text-cyan-400" />
         </motion.div>
-        {/* <motion.div
+        <motion.div
           variants={iconVariants(4)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
+          title="Node.js"
         >
           <FaNodeJs className="text-7xl text-green-500" />
-        </motion.div> */}
+        </motion.div>
         <motion.div
           variants={iconVariants(2.5)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
+          title="Express.js"
         >
           <SiExpress className="text-7xl text-white" />
         </motion.div>
@@ -114,6 +119,7 @@ const Technologies = () => {
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
+          title="MySQL"
         >
           <SiMysql className="text-7xl text-blue-500" />
         </motion.div>
@@ -122,6 +128,7 @@ const Technologies = () => {
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
+          title="PostgreSQL"
         >
           <SiPostgresql className="text-7xl text-sky-700" />
         </motion.div>
@@ -130,6 +137,7 @@ const Technologies = () => {
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
+          title="MongoDB"
         >
           <SiMongodb className="text-7xl text-green-500" />
         </motion.div>
@@ -138,6 +146,7 @@ const Technologies = () => {
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
+          title="Redux"
         >
           <SiRedux className="text-7xl text-purple-600" />
         </motion.div>
@@ -146,46 +155,61 @@ const Technologies = () => {
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
+          title="Context API"
         >
-          <SiTailwindcss className="text-7xl text-blue-400" />
+          <RiReactjsLine className="text-7xl text-cyan-400" />
         </motion.div>
         <motion.div
           variants={iconVariants(2.5)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
+          title="Tailwind CSS"
         >
-          <SiBootstrap className="text-7xl text-purple-600" />
+          <SiTailwindcss className="text-7xl text-blue-400" />
         </motion.div>
         <motion.div
           variants={iconVariants(3)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
+          title="Bootstrap"
         >
-          <SiHtml5 className="text-7xl text-orange-600" />
+          <SiBootstrap className="text-7xl text-purple-600" />
         </motion.div>
         <motion.div
           variants={iconVariants(5)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
+          title="HTML5"
         >
-          <SiCss3 className="text-7xl text-blue-600" />
+          <SiHtml5 className="text-7xl text-orange-600" />
         </motion.div>
         <motion.div
           variants={iconVariants(2)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
+          title="CSS3"
         >
-          <SiGit className="text-7xl text-red-600" />
+          <SiCss3 className="text-7xl text-blue-600" />
         </motion.div>
         <motion.div
           variants={iconVariants(6)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
+          title="Git"
+        >
+          <SiGit className="text-7xl text-red-600" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(4)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+          title="Selenium"
         >
           <SiSelenium className="text-7xl text-green-500" />
         </motion.div>
