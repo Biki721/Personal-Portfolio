@@ -23,9 +23,13 @@ export const NAV_LINKS = [
   },
 ];
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I'm a passionate full-stack developer with a background in automation, dedicated to building scalable and efficient web applications. With over 3 years of experience, I have refined my skills in front-end technologies like React and back-end technologies including Node.js, Django, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to deliver innovative solutions that drive business growth, enhance productivity, and create exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_ME = `Hello! I'm Biki Dey, a full-stack developer with over three years of experience building impactful web applications. My journey started in automation, where I developed an eye for streamlining complex processes and ensuring efficiency-a skill I now apply in full-stack development. I'm passionate about leveraging technology to create solutions that not only meet business goals but also deliver outstanding user experiences.`;
+
+export const ABOUT_APPROACH = `For me, development is more than writing code—it's about understanding user needs, adapting to new challenges, and creating applications that are both functional and enjoyable to use. I believe in continuous learning, staying updated with the latest trends, and exploring new tools and frameworks to deliver solutions that keep pace with industry standards.`;
+
+export const ABOUT_FUTURE = `As I continue my career, my goal is to deepen my full-stack expertise and collaborate with forward-thinking teams to drive innovation. Whether it's optimizing backend performance or designing intuitive front-end experiences, I'm committed to delivering applications that make a real difference.`;
 
 export const EXPERIENCES = [
   {

@@ -1,5 +1,5 @@
 import aboutImg from "../assets/about.jpg";
-import { ABOUT_TEXT } from "../constants";
+import { ABOUT_APPROACH, ABOUT_FUTURE, ABOUT_ME } from "../constants";
 import { motion } from "framer-motion";
 import { SectionWrapper } from "../hoc";
 
@@ -28,7 +28,15 @@ const About = () => {
           className="w-full lg:w-1/2"
         >
           <div className="flex justify-center lg:justify-start">
-            <p className="my-2 max-w-xl py-6">{ABOUT_TEXT}</p>
+            <p className="my-2 max-w-xl py-6">
+              {ABOUT_ME}
+              <br />
+              <br />
+              {ABOUT_APPROACH}
+              <br />
+              <br />
+              {ABOUT_FUTURE}
+            </p>
           </div>
         </motion.div>
       </div>
