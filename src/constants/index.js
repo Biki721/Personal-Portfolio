@@ -33,32 +33,32 @@ export const ABOUT_FUTURE = `As I continue my career, my goal is to deepen my fu
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
+    year: "05/2023 - Present",
+    role: "Automation and Web Developer",
     company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+
+    description: `Led the processing of over 8,000 documents per month by implementing 13 automated checks—such as spelling, copyright, fonts, color palette, etc.—with a 95% accuracy rate. Built scalable Django REST APIs to expose these checks, integrating them into a React application, which achieved a 4% reduction in validation headcount and significantly enhanced operational efficiency.`,
+    technologies: [
+      "Django Rest Framework",
+      "React.js",
+      "tailwind CSS",
+      "MySQL",
+      "Redux Toolkit",
+    ],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
+    year: "10/2021 - 04/2023",
     role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    company: "Freelance",
+    description: `Created an e-commerce platform tailored for wholesale and retail clients using Django’s MVC framework, ensuring a robust backend. Implemented MySQL for streamlined data management, which boosted operational efficiency by 25% through automating order management, inventory tracking, and customer service. This project was pivotal in driving revenue growth for a client transitioning to an online presence.`,
+    technologies: ["Django", "Javascript", "Bootstrap", "MySQL"],
   },
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "04/2020 - 09/2021",
+    role: "Project Intern",
+    company: "Forsk Technologies",
+    description: `Engineered a comprehensive event management platform for coding courses, leveraging Django REST Framework to create robust RESTful APIs that integrated seamlessly with a React frontend, resulting in a dynamic and intuitive user interface. Utilized MySQL for efficient data management. Its scalable architecture enhanced operational efficiency by 30%, allowing staff to concentrate on delivering high-quality educational content and significantly improving the overall learning experience.`,
+    technologies: ["Django Rest Framework", "React", "PostgreSQL", "Boostrap"],
   },
 ];
 

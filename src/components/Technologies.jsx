@@ -17,6 +17,7 @@ import {
   SiRedux,
   SiSelenium,
 } from "react-icons/si";
+import { TbBrandThreejs } from "react-icons/tb";
 // import { DiRedis } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
 import { motion } from "framer-motion";
@@ -150,15 +151,7 @@ const Technologies = () => {
         >
           <SiRedux className="text-7xl text-purple-600" />
         </motion.div>
-        <motion.div
-          variants={iconVariants(4)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-          title="Context API"
-        >
-          <RiReactjsLine className="text-7xl text-cyan-400" />
-        </motion.div>
+
         <motion.div
           variants={iconVariants(2.5)}
           initial="initial"
@@ -212,6 +205,15 @@ const Technologies = () => {
           title="Selenium"
         >
           <SiSelenium className="text-7xl text-green-500" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(2.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+          title="Three.js"
+        >
+          <TbBrandThreejs className="text-7xl text-white" />
         </motion.div>
       </motion.div>
     </div>

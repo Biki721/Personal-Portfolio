@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <nav className=" mb-20 flex items-center justify-between py-6">
       <div className="flex flex-shrink-0 items-center">
-        <img className="mx-2 w-10" src={logo} alt="logo" />
+        <img className="mx-2 w-[52px]" src={logo} alt="logo" />
       </div>
       <ul className="list-none hidden sm:flex flex-row gap-10">
         {NAV_LINKS.map((nav) => (
@@ -29,10 +29,34 @@ const Navbar = () => {
         ))}
       </ul>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <FaLinkedin />
-        <FaGithub />
-        <FaInstagram />
-        <FaFacebook />
+        <a
+          href="https://www.linkedin.com/in/bikidey721/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaLinkedin />
+        </a>
+        <a
+          href="https://github.com/Biki721"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaGithub />
+        </a>
+        <a
+          href="https://www.instagram.com/vicky_dey"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaInstagram />
+        </a>
+        <a
+          href="https://www.facebook.com/biki.dey.125"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaFacebook />
+        </a>
         {/* <FiAlignJustify /> */}
       </div>
 
