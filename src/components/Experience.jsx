@@ -1,6 +1,7 @@
 import { span } from "framer-motion/client";
 import { EXPERIENCES } from "../constants";
 import { motion } from "framer-motion";
+import { SectionWrapper } from "../hoc";
 
 const Experience = () => {
   return (
@@ -11,7 +12,7 @@ const Experience = () => {
         transition={{ duration: 0.5 }}
         className="my-20 text-center text-4xl"
       >
-        Experience
+        Work Experience
       </motion.h1>
       <div>
         {EXPERIENCES.map((experience, index) => (
@@ -53,4 +54,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default SectionWrapper(Experience, "work");

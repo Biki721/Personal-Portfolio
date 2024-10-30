@@ -1,10 +1,8 @@
 import React, { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
-// import { styles } from "../styles";
 import { EarthCanvas, StarsCanvas } from "./index";
-// import { SectionWrapper } from "../hoc";
-// import { slideIn } from "../utils/motion";
+import { SectionWrapper } from "../hoc";
 import conf from "../conf/conf";
 
 const slideIn = (direction, type, delay, duration) => {
@@ -152,4 +150,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default SectionWrapper(Contact, "contact");

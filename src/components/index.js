@@ -8,6 +8,7 @@ import Contact from "./Contact";
 import CanvasLoader from "./Loader";
 import EarthCanvas from "./Earth";
 import StarsCanvas from "./Stars";
+import Arrow from "./Arrow";
 
 export {
   Navbar,
@@ -20,4 +21,5 @@ export {
   EarthCanvas,
   CanvasLoader,
   StarsCanvas,
+  Arrow,
 };

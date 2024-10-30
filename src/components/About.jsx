@@ -1,6 +1,7 @@
 import aboutImg from "../assets/about.jpg";
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
+import { SectionWrapper } from "../hoc";
 
 const About = () => {
   return (
@@ -35,4 +36,6 @@ const About = () => {
   );
 };
 
-export default About;
+// export default About;
+
+export default SectionWrapper(About, "about");

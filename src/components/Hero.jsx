@@ -1,6 +1,7 @@
 import { HERO_CONTENT } from "../constants";
 import profilePic from "../assets/HeroProfile.png";
 import { motion } from "framer-motion";
+import StarsCanvas from "./Stars";
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -56,6 +57,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
+      <StarsCanvas />
     </div>
   );
 };

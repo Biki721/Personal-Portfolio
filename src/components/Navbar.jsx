@@ -5,12 +5,13 @@ import { FaGithub } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { NAV_LINKS } from "../constants";
+import { FiAlignJustify, FiX } from "react-icons/fi";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   return (
-    <nav className=" mb-20 flex items-center justify-between py-6 ">
+    <nav className=" mb-20 flex items-center justify-between py-6">
       <div className="flex flex-shrink-0 items-center">
         <img className="mx-2 w-10" src={logo} alt="logo" />
       </div>
@@ -32,6 +33,44 @@ const Navbar = () => {
         <FaGithub />
         <FaInstagram />
         <FaFacebook />
+        {/* <FiAlignJustify /> */}
+      </div>
+
+      <div className="sm:hidden flex flex-1 justify-end items-center">
+        {toggle ? (
+          <FiX
+            className="w-[28px] h-[28px] object-contain"
+            onClick={() => setToggle(!toggle)}
+          />
+        ) : (
+          <FiAlignJustify
+            className="w-[28px] h-[28px] object-contain"
+            onClick={() => setToggle(!toggle)}
+          />
+        )}
+      </div>
+
+      <div
+        className={`${
+          !toggle ? "hidden" : "flex"
+        } p-6 bg-neutral-900 absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
+      >
+        <ul className="list-none flex justify-end items-start flex-1 flex-col gap-4">
+          {NAV_LINKS.map((nav) => (
+            <li
+              key={nav.id}
+              className={`font-poppins font-medium cursor-pointer text-[16px] ${
+                active === nav.title ? "text-white" : "text-secondary"
+              }`}
+              onClick={() => {
+                setToggle(!toggle);
+                setActive(nav.title);
+              }}
+            >
+              <a href={`#${nav.id}`}>{nav.title}</a>
+            </li>
+          ))}
+        </ul>
       </div>
     </nav>
   );
