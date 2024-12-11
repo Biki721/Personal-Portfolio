@@ -1,5 +1,6 @@
 import { HERO_CONTENT } from "../constants";
 import profilePic from "../assets/HeroProfile.png";
+// import profilePic from "../assets/HeroProfile.jpg";
 import { motion } from "framer-motion";
 import StarsCanvas from "./Stars";
 
@@ -17,7 +18,7 @@ const Hero = () => {
     <div className="border-b border-neutral-900 pb-4 lg:mb-35">
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
-          <div className="flex flex-col items-center lg:items-start">
+          <div className="flex flex-col sm:pl-4 items-center lg:items-start">
             <motion.h1
               variants={container(0)}
               initial="hidden"
@@ -53,6 +54,7 @@ const Hero = () => {
               className="rounded-full"
               src={profilePic}
               alt="Biki Dey"
+              // width={400}
             />
           </div>
         </div>
