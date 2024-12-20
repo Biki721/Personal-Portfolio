@@ -35,7 +35,7 @@ export const EXPERIENCES = [
   {
     year: "05/2023 - Present",
     role: "Automation and Web Developer",
-    company: "Google Inc.",
+    company: "Hewlett Packard Enterprise",
 
     description: `Led the processing of over 8,000 documents per month by implementing 13 automated checks—such as spelling, copyright, fonts, color palette, etc.—with a 95% accuracy rate. Built scalable Django REST APIs to expose these checks, integrating them into a React application, which achieved a 4% reduction in validation headcount and significantly enhanced operational efficiency.`,
     technologies: [
@@ -93,8 +93,8 @@ export const PROJECTS = [
   },
 ];
 
-export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
-};
+// export const CONTACT = {
+//   address: "767 Fifth Avenue, New York, NY 10153 ",
+//   phoneNo: "+12 4555 666 00 ",
+//   email: "me@example.com",
+// };
