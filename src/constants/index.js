@@ -54,7 +54,7 @@ export const EXPERIENCES = [
     technologies: ["Django", "Javascript", "Bootstrap", "MySQL"],
   },
   {
-    year: "04/2020 - 09/2021",
+    year: "04/2020 - 09/2020",
     role: "Project Intern",
     company: "Forsk Technologies",
     description: `Engineered a comprehensive event management platform for coding courses, leveraging Django REST Framework to create robust RESTful APIs that integrated seamlessly with a React frontend, resulting in a dynamic and intuitive user interface. Utilized MySQL for efficient data management. Its scalable architecture enhanced operational efficiency by 30%, allowing staff to concentrate on delivering high-quality educational content and significantly improving the overall learning experience.`,
