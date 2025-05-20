@@ -23,7 +23,7 @@ export const NAV_LINKS = [
   },
 ];
 
-export const HERO_CONTENT = `I'm a passionate full-stack developer with a background in automation, dedicated to building scalable and efficient web applications. With over 3 years of experience, I have refined my skills in front-end technologies like React and back-end technologies including Node.js, Django, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to deliver innovative solutions that drive business growth, enhance productivity, and create exceptional user experiences.`;
+export const HERO_CONTENT = `I'm a passionate full-stack developer with a background in automation, dedicated to building scalable and efficient web applications. With over 3 years of experience, I have refined my skills in front-end technologies like React, Next JS and back-end technologies including Node.js, Django, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to deliver innovative solutions that drive business growth, enhance productivity, and create exceptional user experiences.`;
 
 export const ABOUT_ME = `Hello! I'm Biki Dey, a full-stack developer with over three years of experience building impactful web applications. My journey started in automation, where I developed an eye for streamlining complex processes and ensuring efficiency-a skill I now apply in full-stack development. I'm passionate about leveraging technology to create solutions that not only meet business goals but also deliver outstanding user experiences.`;
 
@@ -37,28 +37,51 @@ export const EXPERIENCES = [
     role: "Automation and Web Developer",
     company: "Hewlett Packard Enterprise",
 
-    description: `Led the processing of over 8,000 documents per month by implementing 13 automated checks—such as spelling, copyright, fonts, color palette, etc.—with a 95% accuracy rate. Built scalable Django REST APIs to expose these checks, integrating them into a React application, which achieved a 4% reduction in validation headcount and significantly enhanced operational efficiency.`,
+    description: [
+      `Architected & deployed scalable RESTful APIs using Django, processing 8,000+ documents/month with 13 automated validation checks (spelling, copyright, fonts, color), achieving 95% accuracy and reducing manual review effort by 4%.`,
+      `Built a robust Python-based web crawler to automate partner platform audits — validating links, images, logos, and content freshness — cutting QA workload by 18 FTEs with 98% audit accuracy.`,
+      `Engineered dynamic UI components in React.js for account selection, scheduling, and targeting workflows. Developed supporting Express.js APIs, and integrated SharePoint for secure enterprise data access.`,
+    ],
     technologies: [
-      "Django Rest Framework",
+      "Python",
+      "Django",
+      "JavaScript",
       "React.js",
-      "tailwind CSS",
-      "MySQL",
-      "Redux Toolkit",
+      "Node.js",
+      "Express.js",
+      "Tailwind CSS",
     ],
   },
   {
     year: "10/2021 - 04/2023",
     role: "Full Stack Developer",
     company: "Freelance",
-    description: `Created an e-commerce platform tailored for wholesale and retail clients using Django’s MVC framework, ensuring a robust backend. Implemented MySQL for streamlined data management, which boosted operational efficiency by 25% through automating order management, inventory tracking, and customer service. This project was pivotal in driving revenue growth for a client transitioning to an online presence.`,
-    technologies: ["Django", "Javascript", "Bootstrap", "MySQL"],
+    description: [
+      `Developed a full-stack contactless restaurant ordering platform using React.js, Node.js, Express.js, and MongoDB, featuring dynamic QR menus linked to table numbers for real-time ordering and payments. Integrated Razorpay and UPI for secure digital transactions, improving table turnover by 40% and reducing staff workload by 30% through automated service.`,
+      `Built a scalable full-stack e-commerce platform using Django, React.js, PostgreSQL, and Tailwind CSS, supporting 500+ concurrent users with optimized caching, routing, and DB queries. Implemented OAuth 2.0 and JWT for secure third-party logins and session handling. Used Redux and Cloudinary to manage state and media, cutting login issues by 30% and enhancing session reliability.`,
+    ],
+    technologies: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Django",
+      "PostgreSQL",
+      "Tailwind CSS",
+      "OAuth 2.0",
+      "JWT",
+      "Redux",
+    ],
   },
   {
     year: "04/2020 - 09/2020",
     role: "Project Intern",
     company: "Forsk Technologies",
-    description: `Engineered a comprehensive event management platform for coding courses, leveraging Django REST Framework to create robust RESTful APIs that integrated seamlessly with a React frontend, resulting in a dynamic and intuitive user interface. Utilized MySQL for efficient data management. Its scalable architecture enhanced operational efficiency by 30%, allowing staff to concentrate on delivering high-quality educational content and significantly improving the overall learning experience.`,
-    technologies: ["Django Rest Framework", "React", "PostgreSQL", "Boostrap"],
+    description: [
+      `Engineered a comprehensive event management system for coding courses using Python, Django, React.js, and MySQL, in collaboration with a 4-member team.`,
+      `Integrated RESTful APIs to enable smooth frontend-backend communication, supporting features like course registration, attendance tracking, and user interaction.`,
+    ],
+    technologies: ["Python", "Django", "React.js", "MySQL", "RESTful APIs"],
   },
 ];
 
